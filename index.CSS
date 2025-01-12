@@ -1,0 +1,130 @@
+body {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+    background-color: rgb(227, 227, 130);
+    display: flex;
+    justify-content: center;  
+}
+
+.PAGE {
+  border: 10px solid lightcoral; 
+  padding: 20px; 
+  margin: 50px; 
+  background-color:lightblue; 
+  font-family: Arial, sans-serif;
+  padding-bottom: 000px;
+  width: 900px;
+  font-size: 20px;
+  color: rgb(1, 0, 0);
+  text-decoration: none;
+}
+
+.header {
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+.menti {
+  color: yellow;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-bottom: 2px solid rgb(0, 0, 0);
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.menu {
+  color: #ff6f00; 
+  margin-bottom: 7px;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+}
+
+.beg{
+  display: inline-block;
+}
+
+.beg-inter{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.beg ,.inter{
+  flex: 1 1  calc(50% - 10px); 
+}
+
+
+.inter{
+  display: inline-block;
+  
+  margin-top: 5px;
+  
+
+}
+
+.pre{
+  display: inline-block;
+  margin-left: 150px;
+}
+.pre h3{
+  display: flex;
+  justify-content: center;
+}
+.img
+{
+  margin-top: 0px;
+  margin-left: 190px;
+  border-color: black;
+  justify-content: center;
+}
+.own{
+  margin-top: 50px;
+  margin-left: 40px;
+  color: #00008f;
+}
+.mag-chef{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.Manger{
+  display: inline-block;
+
+}
+.Manger h3{
+  color: rgb(255, 0, 0);
+}
+.chef{
+  display: inline-block;
+  width: 200px;
+}
+.chef h3{
+  color: rgb(255, 0, 0);
+}
+.swaroop{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 0px;
+
+}
+
+.beg-inter h3{
+  color: rgb(255, 0, 0);
+}
+
+.adv h3{
+  color: rgb(255, 0, 0);
+}
+.pre h3{
+  color: rgb(255, 0, 0);
+}
+.author{
+  font-weight: bold;
+  color: yellow;
+}
